@@ -1,0 +1,1684 @@
+#
+# COPYRIGHT Ericsson 2024
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+modelVersion: '3.0'
+dependencies:
+- ID: '@fortawesome/fontawesome-free+6.4.2'
+  additional_info:
+    fossa-attribution:
+      Description: The iconic font, CSS, and SVG framework
+      Package: '@fortawesome/fontawesome-free'
+      Source: npm
+      Version: 6.4.2
+      Hash: ''
+      licenses:
+      - CC-BY-4.0
+      - MIT
+      - OFL-1.1
+      Title: '@fortawesome/fontawesome-free'
+      DownloadURL: https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-6.4.2.tgz
+  bazaar:
+    register: 'no'
+    prim: 26/CAX1058396
+    community_link: https://github.com/FortAwesome/Font-Awesome
+    community_name: https://github.com/FortAwesome/Font-Awesome
+    community_url: https://github.com/FortAwesome/Font-Awesome
+    component_comment: ''
+    component_highlevel_description: The iconic SVG, font, and CSS toolkit
+    component_name: Font-Awesome
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 6.4.2
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    - FAL1159047/40 (Creative Commons Attribution Non Commercial 4.0 International
+      (CC-BY-NC-4.0))
+    - FAL1159164/11 (SIL Open Font License 1.1 (OFL-1.1))
+    src_download_link: https://github.com/FortAwesome/Font-Awesome/archive/6.4.2.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Low Community Activity.
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1062608&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: ''
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: '@fortawesome/fontawesome-free'
+    target_sw: linux
+    vendor: npm
+    version: 6.4.2
+    web_url: https://www.npmjs.com/package/@fortawesome/fontawesome-free
+  licenses:
+  - MIT
+  - CC-BY-4.0
+  - OFL-1.1
+  name: '@fortawesome/fontawesome-free'
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 6.4.2
+  mimer:
+    linking: Static
+    product_number: CAX1058396
+    product_version_label: 6.4.2
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: '@types/prop-types+15.7.7'
+  additional_info:
+    fossa-attribution:
+      Description: TypeScript definitions for prop-types
+      Package: '@types/prop-types'
+      Source: npm
+      Version: 15.7.7
+      Hash: ''
+      licenses:
+      - MIT
+      Title: '@types/prop-types'
+      DownloadURL: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.7.tgz
+  bazaar:
+    register: 'no'
+    prim: 109/CTX1026242
+    community_link: https://github.com/DefinitelyTyped/DefinitelyTyped
+    community_name: https://github.com/DefinitelyTyped/DefinitelyTyped
+    community_url: https://github.com/DefinitelyTyped/DefinitelyTyped
+    component_comment: ''
+    component_highlevel_description: The repository for high quality TypeScript type
+      definitions.
+    component_name: DefinitelyTyped
+    component_platform: linux
+    component_programing_language: TypeScript
+    component_version: A80F5FB
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/DefinitelyTyped/DefinitelyTyped/archive/a80f5fb4006291e76ec2fb481461b4b579fc3055.zip
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Low community activity.
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1071447&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: TypeScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: '@types/prop-types'
+    target_sw: linux
+    vendor: npm
+    version: 15.7.7
+    web_url: https://www.npmjs.com/package/@types/prop-types
+  licenses:
+  - MIT
+  name: '@types/prop-types'
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 15.7.7
+  mimer:
+    linking: Static
+    product_number: CTX1026242
+    product_version_label: a80f5fb4006291e76ec2fb481461b4b579fc3055
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: '@types/react+16.8.5'
+  additional_info:
+    fossa-attribution:
+      Description: TypeScript definitions for react
+      Package: '@types/react'
+      Source: npm
+      Version: 16.8.5
+      Hash: ''
+      licenses:
+      - MIT
+      Title: '@types/react'
+      DownloadURL: https://registry.npmjs.org/@types/react/-/react-16.8.5.tgz
+  bazaar:
+    register: 'no'
+    prim: 100/CTX1026242
+    community_link: https://github.com/DefinitelyTyped/DefinitelyTyped
+    community_name: https://github.com/DefinitelyTyped/DefinitelyTyped
+    community_url: https://github.com/DefinitelyTyped/DefinitelyTyped
+    component_comment: ''
+    component_highlevel_description: The repository for high quality TypeScript type
+      definitions.
+    component_name: DefinitelyTyped
+    component_platform: linux
+    component_programing_language: TypeScript
+    component_version: '5043241'
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/DefinitelyTyped/DefinitelyTyped/archive/5043241a1a4ae8f733109ec9ea256c3fb73a6616.zip
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 54 months
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1058972&id-filter=equals&rowDisplay=Card-Simple
+    recode: RE1
+    retext: PRODUCT VERSION IS OLDER THAN 54 MONTHS
+    country: United States
+    crypto: No Encryption
+    programming_language: TypeScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: '@types/react'
+    target_sw: linux
+    vendor: npm
+    version: 16.8.5
+    web_url: https://www.npmjs.com/package/@types/react
+  licenses:
+  - MIT
+  name: '@types/react'
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 16.8.5
+  mimer:
+    linking: Static
+    product_number: CTX1026242
+    product_version_label: 5043241a1a4ae8f733109ec9ea256c3fb73a6616
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR/SCAS component is not recommended to be used
+- ID: argo-ui+1.0.0
+  additional_info:
+    fossa-attribution:
+      Description: '![Argo Image](https://github.com/argoproj/argo/blob/master/argo.png?raw=true)'
+      Package: argo-ui
+      Source: npm
+      Version: 1.0.0
+      Hash: ''
+      licenses:
+      - Apache-2.0
+      - MIT
+      Title: argo-ui
+      DownloadURL: https://registry.npmjs.org/argo-ui/-/argo-ui-1.0.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 1/CTX1038378
+    community_link: https://github.com/argoproj/argo-ui
+    community_name: https://github.com/argoproj/argo-ui
+    community_url: https://github.com/argoproj/argo-ui
+    component_comment: ''
+    component_highlevel_description: Argoproj shared React components
+    component_name: argo-ui, argoproj
+    component_platform: linux
+    component_programing_language: TypeScript
+    component_version: '1.0'
+    licenses:
+    - FAL1159004/20 (Apache License 2.0 (Apache-2.0))
+    src_download_link: https://github.com/argoproj/argo-ui/archive/refs/tags/v1.0.zip
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Low community activity.
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1058962&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: TypeScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: argo-ui
+    target_sw: linux
+    vendor: npm
+    version: 1.0.0
+    web_url: https://www.npmjs.com/package/argo-ui
+  licenses:
+  - Apache-2.0
+  - MIT
+  name: argo-ui
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 1.0.0
+  mimer:
+    linking: Static
+    product_number: CTX1038378
+    product_version_label: v1.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW3', BAZAAR/SCAS component is not recommended to be used
+  - '''argo-ui, argoproj'': Manual set stako_decision_reason: ''allowed'' for stako:
+    ''ESW3'', team takes the risk!'
+- ID: chart.js+2.9.4
+  additional_info:
+    fossa-attribution:
+      Description: Simple HTML5 charts using the canvas element.
+      Package: chart.js
+      Source: npm
+      Version: 2.9.4
+      Hash: ''
+      licenses:
+      - MIT
+      Title: chart.js
+      DownloadURL: https://registry.npmjs.org/chart.js/-/chart.js-2.9.4.tgz
+  bazaar:
+    register: 'no'
+    prim: 11/CAX1058117
+    community_link: https://github.com/chartjs/Chart.js
+    community_name: https://github.com/chartjs/Chart.js
+    community_url: https://github.com/chartjs/Chart.js
+    component_comment: ''
+    component_highlevel_description: Simple HTML5 Charts using the canvas element
+      chartjs.org.
+    component_name: Chart.js
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 2.9.4
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/chartjs/Chart.js/archive/v2.9.4.zip
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 18 months. Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=947593&id-filter=equals&rowDisplay=Card-Simple
+    recode: REL
+    retext: PRODUCT VERSION IS OLDER THAN 18 MONTHS. NEWER VERSIONS EXISTS
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: chart.js
+    target_sw: linux
+    vendor: npm
+    version: 2.9.4
+    web_url: https://www.npmjs.com/package/chart.js
+  licenses:
+  - MIT
+  name: chart.js
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 2.9.4
+  mimer:
+    linking: Static
+    product_number: CAX1058117
+    product_version_label: v2.9.4
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR component is not recommended to be used
+- ID: chartjs-plugin-annotation+0.5.7
+  additional_info:
+    fossa-attribution:
+      Description: Annotations for Chart.js
+      Package: chartjs-plugin-annotation
+      Source: npm
+      Version: 0.5.7
+      Hash: ''
+      licenses:
+      - MIT
+      Title: chartjs-plugin-annotation
+      DownloadURL: https://registry.npmjs.org/chartjs-plugin-annotation/-/chartjs-plugin-annotation-0.5.7.tgz
+  bazaar:
+    register: 'no'
+    prim: 1/CTX1029306
+    community_link: https://github.com/chartjs/chartjs-plugin-annotation
+    community_name: https://github.com/chartjs/chartjs-plugin-annotation
+    community_url: https://github.com/chartjs/chartjs-plugin-annotation
+    component_comment: ''
+    component_highlevel_description: Annotation plugin for Chart.js
+    component_name: chartjs-plugin-annotation.js
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 0.5.7
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/chartjs/chartjs-plugin-annotation/archive/v0.5.7.zip
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 54 months
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=941337&id-filter=equals&rowDisplay=Card-Simple
+    recode: RE1
+    retext: PRODUCT VERSION IS OLDER THAN 54 MONTHS
+    country: Canada
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: chartjs-plugin-annotation
+    target_sw: linux
+    vendor: npm
+    version: 0.5.7
+    web_url: https://www.npmjs.com/package/chartjs-plugin-annotation
+  licenses:
+  - MIT
+  name: chartjs-plugin-annotation
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 0.5.7
+  mimer:
+    linking: Static
+    product_number: CTX1029306
+    product_version_label: v0.5.7
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR component is not recommended to be used
+- ID: classnames+2.3.2
+  additional_info:
+    fossa-attribution:
+      Description: A simple utility for conditionally joining classNames together
+      Package: classnames
+      Source: npm
+      Version: 2.3.2
+      Hash: ''
+      licenses:
+      - MIT
+      Title: classnames
+      DownloadURL: https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz
+  bazaar:
+    register: 'no'
+    prim: 4/CTX1020178
+    community_link: https://github.com/JedWatson/classnames
+    community_name: https://github.com/JedWatson/classnames
+    community_url: https://github.com/JedWatson/classnames
+    component_comment: ''
+    component_highlevel_description: A simple JavaScript utility for conditionally
+      joining classNames together.
+    component_name: Classnames
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 2.3.2
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/JedWatson/classnames/archive/v2.3.2.tar.gz
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1029385&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: Australia
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: classnames
+    target_sw: linux
+    vendor: npm
+    version: 2.3.2
+    web_url: https://www.npmjs.com/package/classnames
+  licenses:
+  - MIT
+  name: classnames
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 2.3.2
+  mimer:
+    linking: Static
+    product_number: CTX1020178
+    product_version_label: v2.3.2
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: cron-parser+4.9.0
+  additional_info:
+    fossa-attribution:
+      Description: Node.js library for parsing crontab instructions
+      Package: cron-parser
+      Source: npm
+      Version: 4.9.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: cron-parser
+      DownloadURL: https://registry.npmjs.org/cron-parser/-/cron-parser-4.9.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 9/CTX1022784
+    community_link: https://github.com/harrisiirak/cron-parser
+    community_name: https://github.com/harrisiirak/cron-parser
+    community_url: https://github.com/harrisiirak/cron-parser
+    component_comment: ''
+    component_highlevel_description: Node.js library for parsing crontab instructions
+    component_name: cron-parser
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 4.9.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/harrisiirak/cron-parser/archive/4.9.0.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Low Community Activity.
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1071448&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: ''
+    crypto: ''
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: cron-parser
+    target_sw: linux
+    vendor: npm
+    version: 4.9.0
+    web_url: https://www.npmjs.com/package/cron-parser
+  licenses:
+  - MIT
+  name: cron-parser
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 4.9.0
+  mimer:
+    linking: Static
+    product_number: CTX1022784
+    product_version_label: 4.9.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: cronstrue+2.32.0
+  additional_info:
+    fossa-attribution:
+      Description: Convert cron expressions into human readable descriptions
+      Package: cronstrue
+      Source: npm
+      Version: 2.32.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: cronstrue
+      DownloadURL: https://registry.npmjs.org/cronstrue/-/cronstrue-2.32.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 7/CTX1024960
+    community_link: https://github.com/bradymholt/cronstrue
+    community_name: https://github.com/bradymholt/cronstrue
+    community_url: https://github.com/bradymholt/cronstrue
+    component_comment: ''
+    component_highlevel_description: JavaScript library that translates Cron expressions
+      into human readable descriptions
+    component_name: cronstrue
+    component_platform: linux
+    component_programing_language: TypeScript
+    component_version: V2.32.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/bradymholt/cronstrue/archive/v2.32.0.tar.gz
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1071450&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: ''
+    crypto: ''
+    programming_language: TypeScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: cronstrue
+    target_sw: linux
+    vendor: npm
+    version: 2.32.0
+    web_url: https://www.npmjs.com/package/cronstrue
+  licenses:
+  - MIT
+  name: cronstrue
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 2.32.0
+  mimer:
+    linking: Static
+    product_number: CTX1024960
+    product_version_label: v2.32.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: dagre+0.8.5
+  additional_info:
+    fossa-attribution:
+      Description: Graph layout for JavaScript
+      Package: dagre
+      Source: npm
+      Version: 0.8.5
+      Hash: ''
+      licenses:
+      - BSD-3-Clause
+      - MIT
+      Title: dagre
+      DownloadURL: https://registry.npmjs.org/dagre/-/dagre-0.8.5.tgz
+  bazaar:
+    register: 'no'
+    prim: 2/CTX1020568
+    community_link: https://github.com/dagrejs/dagre
+    community_name: https://github.com/dagrejs/dagre
+    community_url: https://github.com/dagrejs/dagre
+    component_comment: ''
+    component_highlevel_description: Dagre is a JavaScript library that makes it easy
+      to lay out directed graphs on the client-side.
+    component_name: dagre
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 0.8.5
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/dagrejs/dagre/archive/v0.8.5.zip
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Product version is older than 18 months
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=926970&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: dagre
+    target_sw: linux
+    vendor: npm
+    version: 0.8.5
+    web_url: https://www.npmjs.com/package/dagre
+  licenses:
+  - BSD-3-Clause
+  - MIT
+  name: dagre
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 0.8.5
+  mimer:
+    linking: Static
+    product_number: CTX1020568
+    product_version_label: v0.8.5
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+    selected_licenses:
+    - MIT
+  alerts:
+  - '''dagre'': Manual set stako_decision_reason: ''allowed'' for stako: ''ESW3'',
+    team takes the risk!'
+- ID: history+4.10.1
+  additional_info:
+    fossa-attribution:
+      Description: Manage session history with JavaScript
+      Package: history
+      Source: npm
+      Version: 4.10.1
+      Hash: ''
+      licenses:
+      - MIT
+      Title: history
+      DownloadURL: https://registry.npmjs.org/history/-/history-4.10.1.tgz
+  bazaar:
+    register: 'no'
+    prim: 7/CAX1059331
+    community_link: https://github.com/ReactTraining/history
+    community_name: https://github.com/ReactTraining/history
+    community_url: https://github.com/ReactTraining/history
+    component_comment: ''
+    component_highlevel_description: history is a JavaScript library that lets you
+      easily manage session history anywhere JavaScript runs. history abstracts away
+      the differences in various environments and provides a minimal API that lets
+      you manage the history stack, navigate, confirm navigation, and persist state
+      between sessions.
+    component_name: history
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 4.10.1
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/ReactTraining/history/archive/v4.10.0.zip
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 18 months. Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=921759&id-filter=equals&rowDisplay=Card-Simple
+    recode: REL
+    retext: PRODUCT VERSION IS OLDER THAN 18 MONTHS. NEWER VERSIONS EXISTS
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: history
+    target_sw: linux
+    vendor: npm
+    version: 4.10.1
+    web_url: https://www.npmjs.com/package/history
+  licenses:
+  - MIT
+  name: history
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 4.10.1
+  mimer:
+    linking: Static
+    product_number: CAX1059331
+    product_version_label: v4.10.1
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR component is not recommended to be used
+- ID: js-yaml+4.1.0
+  additional_info:
+    fossa-attribution:
+      Description: YAML 1.2 parser and serializer
+      Package: js-yaml
+      Source: npm
+      Version: 4.1.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: js-yaml
+      DownloadURL: https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 12/CAX1056741
+    community_link: https://github.com/nodeca/js-yaml
+    community_name: https://github.com/nodeca/js-yaml
+    community_url: https://github.com/nodeca/js-yaml
+    component_comment: ''
+    component_highlevel_description: ''
+    component_name: js-yaml
+    component_platform: linux
+    component_programing_language: ''
+    component_version: 4.1.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/nodeca/js-yaml/archive/4.1.0.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Product version is older than 18 months
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=973714&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: Russian Federation
+    crypto: ''
+    programming_language: ''
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: js-yaml
+    target_sw: linux
+    vendor: npm
+    version: 4.1.0
+    web_url: https://www.npmjs.com/package/js-yaml
+  licenses:
+  - MIT
+  name: js-yaml
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 4.1.0
+  mimer:
+    linking: Static
+    product_number: CAX1056741
+    product_version_label: 4.1.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW3', BAZAAR component is not recommended to be used
+  - '''js-yaml'': Manual set stako_decision_reason: ''allowed'' for stako: ''ESW3'',
+    team takes the risk!'
+- ID: moment+2.29.4
+  additional_info:
+    fossa-attribution:
+      Description: Parse, validate, manipulate, and display dates
+      Package: moment
+      Source: npm
+      Version: 2.29.4
+      Hash: ''
+      licenses:
+      - MIT
+      Title: moment
+      DownloadURL: https://registry.npmjs.org/moment/-/moment-2.29.4.tgz
+  bazaar:
+    register: 'no'
+    prim: 29/CAX1057105
+    community_link: https://github.com/moment/moment
+    community_name: https://github.com/moment/moment
+    community_url: https://github.com/moment/moment
+    component_comment: ''
+    component_highlevel_description: A lightweight javascript date library for parsing,
+      validating, manipulating, and formatting dates.
+    component_name: Moment.js
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 2.29.4
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/moment/moment/archive/2.29.4.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Product version is older than 18 months
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1018295&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: moment
+    target_sw: linux
+    vendor: npm
+    version: 2.29.4
+    web_url: https://www.npmjs.com/package/moment
+  licenses:
+  - MIT
+  name: moment
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 2.29.4
+  mimer:
+    linking: Static
+    product_number: CAX1057105
+    product_version_label: 2.29.4
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: monaco-editor+0.44.0
+  additional_info:
+    fossa-attribution:
+      Description: A browser based code editor
+      Package: monaco-editor
+      Source: npm
+      Version: 0.44.0
+      Hash: ''
+      licenses:
+      - Apache-2.0
+      - CC-BY-2.5
+      - CC-BY-4.0
+      - MIT
+      - Unicode-DFS-2016
+      Title: monaco-editor
+      DownloadURL: https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.44.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 14/CTX1032272
+    community_link: https://github.com/microsoft/monaco-editor
+    community_name: https://github.com/microsoft/monaco-editor
+    community_url: https://github.com/microsoft/monaco-editor
+    component_comment: ''
+    component_highlevel_description: A browser based code editor
+    component_name: monaco-editor
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: V0.44.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/microsoft/monaco-editor/archive/v0.44.0.tar.gz
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1071451&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: ''
+    crypto: ''
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: monaco-editor
+    target_sw: linux
+    vendor: npm
+    version: 0.44.0
+    web_url: https://www.npmjs.com/package/monaco-editor
+  licenses:
+  - Apache-2.0
+  - CC-BY-2.5
+  - CC-BY-4.0
+  - MIT
+  - Unicode-DFS-2016
+  name: monaco-editor
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 0.44.0
+  mimer:
+    linking: Static
+    product_number: CTX1032272
+    product_version_label: v0.44.0
+    selected_licenses:
+    - MIT
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: prop-types+15.8.1
+  additional_info:
+    fossa-attribution:
+      Description: Runtime type checking for React props and similar objects.
+      Package: prop-types
+      Source: npm
+      Version: 15.8.1
+      Hash: ''
+      licenses:
+      - MIT
+      Title: prop-types
+      DownloadURL: https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz
+  bazaar:
+    register: 'no'
+    prim: 7/CTX1020692
+    community_link: https://github.com/facebook/prop-types
+    community_name: https://github.com/facebook/prop-types
+    community_url: https://github.com/facebook/prop-types
+    component_comment: ''
+    component_highlevel_description: Runtime type checking for React props and similar
+      objects.
+    component_name: prop-types
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 15.8.1
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/facebook/prop-types/archive/refs/tags/v15.8.1.zip
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Product version is older than 18 months
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=999983&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: 'NO'
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: prop-types
+    target_sw: linux
+    vendor: npm
+    version: 15.8.1
+    web_url: https://www.npmjs.com/package/prop-types
+  licenses:
+  - MIT
+  name: prop-types
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 15.8.1
+  mimer:
+    linking: Static
+    product_number: CTX1020692
+    product_version_label: v15.8.1
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - '''prop-types'': Manual set stako_decision_reason: ''allowed'' for stako: ''ESW3'',
+    team takes the risk!'
+- ID: react+16.14.0
+  additional_info:
+    fossa-attribution:
+      Description: React is a JavaScript library for building user interfaces.
+      Package: react
+      Source: npm
+      Version: 16.14.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: react
+      DownloadURL: https://registry.npmjs.org/react/-/react-16.14.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 38/CAX1058943
+    community_link: https://github.com/facebook/react
+    community_name: https://github.com/facebook/react
+    community_url: https://github.com/facebook/react
+    component_comment: ''
+    component_highlevel_description: A declarative, efficient, and flexible JavaScript
+      library for building user interfaces.
+    component_name: React
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 16.14.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/facebook/react/archive/v16.14.0.zip
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 18 months. Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=947604&id-filter=equals&rowDisplay=Card-Simple
+    recode: REL
+    retext: PRODUCT VERSION IS OLDER THAN 18 MONTHS. NEWER VERSIONS EXISTS
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: react
+    target_sw: linux
+    vendor: npm
+    version: 16.14.0
+    web_url: https://www.npmjs.com/package/react
+  licenses:
+  - MIT
+  name: react
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 16.14.0
+  mimer:
+    linking: Static
+    product_number: CAX1058943
+    product_version_label: v16.14.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR component is not recommended to be used
+- ID: react-chartjs-2+2.11.2
+  additional_info:
+    fossa-attribution:
+      Description: React components for Chart.js
+      Package: react-chartjs-2
+      Source: npm
+      Version: 2.11.2
+      Hash: ''
+      licenses:
+      - MIT
+      Title: react-chartjs-2
+      DownloadURL: https://registry.npmjs.org/react-chartjs-2/-/react-chartjs-2-2.11.2.tgz
+  bazaar:
+    register: 'no'
+    prim: 3/CTX1030821
+    community_link: https://github.com/reactchartjs/react-chartjs-2
+    community_name: https://github.com/reactchartjs/react-chartjs-2
+    community_url: https://github.com/reactchartjs/react-chartjs-2
+    component_comment: ''
+    component_highlevel_description: React components for Chart.js, the most popular
+      charting library
+    component_name: react-chartjs-2
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 17C2F55
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/reactchartjs/react-chartjs-2/archive/17c2f557cb2f79810ecd51fbec109a8ffcbe36c6.zip
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: This version is older than 18 months.
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1058991&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: ''
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: react-chartjs-2
+    target_sw: linux
+    vendor: npm
+    version: 2.11.2
+    web_url: https://www.npmjs.com/package/react-chartjs-2
+  licenses:
+  - MIT
+  name: react-chartjs-2
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 2.11.2
+  mimer:
+    linking: Static
+    product_number: CTX1030821
+    product_version_label: 17c2f557cb2f79810ecd51fbec109a8ffcbe36c6
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - '''react-chartjs-2'': Manual set stako_decision_reason: ''allowed'' for stako:
+    ''ESW3'', team takes the risk!'
+  - Stako is 'ESW3', BAZAAR/SCAS component is not recommended to be used
+- ID: react-datepicker+4.20.0
+  additional_info:
+    fossa-attribution:
+      Description: A simple and reusable datepicker component for React
+      Package: react-datepicker
+      Source: npm
+      Version: 4.20.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: react-datepicker
+      DownloadURL: https://registry.npmjs.org/react-datepicker/-/react-datepicker-4.20.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 16/CTX1022020
+    community_link: https://github.com/Hacker0x01/react-datepicker
+    community_name: https://github.com/Hacker0x01/react-datepicker
+    community_url: https://github.com/Hacker0x01/react-datepicker
+    component_comment: ''
+    component_highlevel_description: A simple and reusable datepicker component for
+      React
+    component_name: react-datepicker
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: V4.20.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/Hacker0x01/react-datepicker/archive/v4.20.0.tar.gz
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1071446&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: ''
+    crypto: ''
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: react-datepicker
+    target_sw: linux
+    vendor: npm
+    version: 4.20.0
+    web_url: https://www.npmjs.com/package/react-datepicker
+  licenses:
+  - MIT
+  name: react-datepicker
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 4.20.0
+  mimer:
+    linking: Static
+    product_number: CTX1022020
+    product_version_label: v4.20.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: react-dom+16.14.0
+  additional_info:
+    fossa-attribution:
+      Description: React package for working with the DOM.
+      Package: react-dom
+      Source: npm
+      Version: 16.14.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: react-dom
+      DownloadURL: https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 38/CAX1058943
+    community_link: https://github.com/facebook/react
+    community_name: https://github.com/facebook/react
+    community_url: https://github.com/facebook/react
+    component_comment: ''
+    component_highlevel_description: A declarative, efficient, and flexible JavaScript
+      library for building user interfaces.
+    component_name: React
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 16.14.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/facebook/react/archive/v16.14.0.zip
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 18 months. Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=947604&id-filter=equals&rowDisplay=Card-Simple
+    recode: REL
+    retext: PRODUCT VERSION IS OLDER THAN 18 MONTHS. NEWER VERSIONS EXISTS
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: react-dom
+    target_sw: linux
+    vendor: npm
+    version: 16.14.0
+    web_url: https://www.npmjs.com/package/react-dom
+  licenses:
+  - MIT
+  name: react-dom
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 16.14.0
+  mimer:
+    linking: Static
+    product_number: CAX1058943
+    product_version_label: v16.14.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: react-monaco-editor+0.50.1
+  additional_info:
+    fossa-attribution:
+      Description: Monaco Editor for React
+      Package: react-monaco-editor
+      Source: npm
+      Version: 0.50.1
+      Hash: ''
+      licenses:
+      - MIT
+      Title: react-monaco-editor
+      DownloadURL: https://registry.npmjs.org/react-monaco-editor/-/react-monaco-editor-0.50.1.tgz
+  bazaar:
+    register: 'no'
+    prim: 2/CTX1032347
+    community_link: https://github.com/react-monaco-editor/react-monaco-editor/
+    community_name: https://github.com/react-monaco-editor/react-monaco-editor/
+    community_url: https://github.com/react-monaco-editor/react-monaco-editor/
+    component_comment: ''
+    component_highlevel_description: Monaco Editor for React.
+    component_name: react-monaco-editor
+    component_platform: linux
+    component_programing_language: TypeScript
+    component_version: V0.50.1
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/react-monaco-editor/react-monaco-editor/archive/refs/tags/v0.50.1.zip
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1058994&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: China
+    crypto: ''
+    programming_language: TypeScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: react-monaco-editor
+    target_sw: linux
+    vendor: npm
+    version: 0.50.1
+    web_url: https://www.npmjs.com/package/react-monaco-editor
+  licenses:
+  - MIT
+  name: react-monaco-editor
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 0.50.1
+  mimer:
+    linking: Static
+    product_number: CTX1032347
+    product_version_label: v0.50.1
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW2', BAZAAR/SCAS component is not recommended to be used
+- ID: react-router-dom+4.3.1
+  additional_info:
+    fossa-attribution:
+      Description: Declarative routing for React web applications
+      Package: react-router-dom
+      Source: npm
+      Version: 4.3.1
+      Hash: ''
+      licenses:
+      - MIT
+      Title: react-router-dom
+      DownloadURL: https://registry.npmjs.org/react-router-dom/-/react-router-dom-4.3.1.tgz
+  bazaar:
+    register: 'no'
+    prim: 9/CAX1059374
+    community_link: https://reacttraining.com/react-router/
+    community_name: https://reacttraining.com/react-router/
+    community_url: https://reacttraining.com/react-router/
+    component_comment: ''
+    component_highlevel_description: Declarative routing for React
+    component_name: react-router
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 4.3.1
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/ReactTraining/react-router/archive/v4.3.1.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 18 months. Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=38983&id-filter=equals&rowDisplay=Card-Simple
+    recode: REL
+    retext: PRODUCT VERSION IS OLDER THAN 18 MONTHS. NEWER VERSIONS EXISTS
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: react-router-dom
+    target_sw: linux
+    vendor: npm
+    version: 4.3.1
+    web_url: https://www.npmjs.com/package/react-router-dom
+  licenses:
+  - MIT
+  name: react-router-dom
+  primary:
+  - this
+  subcomponent: true
+  type: FOSS
+  versions:
+  - 4.3.1
+  mimer:
+    linking: Static
+    product_number: CAX1059374
+    product_version_label: v4.3.1
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR component is not recommended to be used
+- ID: superagent+8.1.2
+  additional_info:
+    fossa-attribution:
+      Description: elegant & feature rich browser / node HTTP with a fluent API
+      Package: superagent
+      Source: npm
+      Version: 8.1.2
+      Hash: ''
+      licenses:
+      - MIT
+      Title: superagent
+      DownloadURL: https://registry.npmjs.org/superagent/-/superagent-8.1.2.tgz
+  bazaar:
+    register: 'no'
+    prim: 6/CTX1025558
+    community_link: https://github.com/ladjs/superagent
+    community_name: https://github.com/ladjs/superagent
+    community_url: https://github.com/ladjs/superagent
+    component_comment: ''
+    component_highlevel_description: Ajax for Node.js and browsers (JS HTTP client).
+      Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs.
+    component_name: superagent
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: V8.1.2
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/ladjs/superagent/archive/refs/tags/v8.1.2.zip
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1057641&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United Kingdom
+    crypto: ''
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: superagent
+    target_sw: linux
+    vendor: npm
+    version: 8.1.2
+    web_url: https://www.npmjs.com/package/superagent
+  licenses:
+  - MIT
+  name: superagent
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 8.1.2
+  mimer:
+    linking: Static
+    product_number: CTX1025558
+    product_version_label: v8.1.2
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+- ID: superagent-promise+1.1.0
+  additional_info:
+    fossa-attribution:
+      Description: superagent promise wrapper
+      Package: superagent-promise
+      Source: npm
+      Version: 1.1.0
+      Hash: ''
+      licenses:
+      - MIT
+      Title: superagent-promise
+      DownloadURL: https://registry.npmjs.org/superagent-promise/-/superagent-promise-1.1.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 1/CTX1038377
+    community_link: https://github.com/lightsofapollo/superagent-promise
+    community_name: https://github.com/lightsofapollo/superagent-promise
+    community_url: https://github.com/lightsofapollo/superagent-promise
+    component_comment: ''
+    component_highlevel_description: Simple/dumb promise wrapper for superagent
+    component_name: superagent-promise, lightsofapollo
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: V1.1.0
+    licenses:
+    - FAL1159008 (MIT License (MIT))
+    src_download_link: https://github.com/lightsofapollo/superagent-promise/archive/v1.1.0.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Inactive community.
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1058970&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: superagent-promise
+    target_sw: linux
+    vendor: npm
+    version: 1.1.0
+    web_url: https://www.npmjs.com/package/superagent-promise
+  licenses:
+  - MIT
+  name: superagent-promise
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 1.1.0
+  mimer:
+    linking: Static
+    product_number: CTX1038377
+    product_version_label: v1.1.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR/SCAS component is not recommended to be used
+- ID: swagger-ui-react+4.12.0
+  additional_info:
+    fossa-attribution:
+      Description: '[![NPM version](https://badge.fury.io/js/swagger-ui-react.svg)](http://badge.fury.io/js/swagger-ui-react)'
+      Package: swagger-ui-react
+      Source: npm
+      Version: 4.12.0
+      Hash: ''
+      licenses:
+      - Apache-2.0
+      - MIT
+      Title: swagger-ui-react
+      DownloadURL: https://registry.npmjs.org/swagger-ui-react/-/swagger-ui-react-4.12.0.tgz
+  bazaar:
+    register: 'no'
+    prim: 64/CAX1058485
+    community_link: https://github.com/swagger-api/swagger-ui
+    community_name: https://github.com/swagger-api/swagger-ui
+    community_url: https://github.com/swagger-api/swagger-ui
+    component_comment: ''
+    component_highlevel_description: Swagger UI is a dependency-free collection of
+      HTML, Javascript, and CSS assets that dynamically generate beautiful documentation
+      and sandbox from a Swagger-compliant API.
+    component_name: Swagger UI
+    component_platform: linux
+    component_programing_language: JavaScript
+    component_version: 4.12.0
+    licenses:
+    - FAL1159004/20 (Apache License 2.0 (Apache-2.0))
+    src_download_link: https://github.com/swagger-api/swagger-ui/archive/v4.12.0.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW4
+    stako_comment: Product version is older than 18 months. Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1019800&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: JavaScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: swagger-ui-react
+    target_sw: linux
+    vendor: npm
+    version: 4.12.0
+    web_url: https://www.npmjs.com/package/swagger-ui-react
+  licenses:
+  - Apache-2.0
+  - MIT
+  name: swagger-ui-react
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 4.12.0
+  mimer:
+    linking: Static
+    product_number: CAX1058485
+    product_version_label: v4.12.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'
+  alerts:
+  - Stako is 'ESW4', BAZAAR/SCAS component is not recommended to be used
+- ID: typescript+4.9.5
+  additional_info:
+    fossa-attribution:
+      Description: TypeScript is a language for application scale JavaScript development
+      Package: typescript
+      Source: npm
+      Version: 4.9.5
+      Hash: ''
+      licenses:
+      - Apache-2.0
+      - CC-BY-4.0
+      - MIT
+      - Unicode-DFS-2016
+      - W3C-20150513
+      Title: typescript
+      DownloadURL: https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz
+  bazaar:
+    register: 'no'
+    prim: 56/CAX1058451
+    community_link: https://github.com/microsoft/TypeScript
+    community_name: https://github.com/microsoft/TypeScript
+    community_url: https://github.com/microsoft/TypeScript
+    component_comment: ''
+    component_highlevel_description: TypeScript is a language for application-scale
+      JavaScript. TypeScript adds optional types, classes, and modules to JavaScript.
+    component_name: TypeScript
+    component_platform: linux
+    component_programing_language: TypeScript
+    component_version: 4.9.5
+    licenses:
+    - FAL1159004/20 (Apache License 2.0 (Apache-2.0))
+    src_download_link: https://github.com/microsoft/TypeScript/archive/v4.9.5.tar.gz
+    stako_decision_reason: allowed
+    stako: ESW3
+    stako_comment: Newer versions exists
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1054556&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+    programming_language: TypeScript
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: typescript
+    target_sw: linux
+    vendor: npm
+    version: 4.9.5
+    web_url: https://www.npmjs.com/package/typescript
+  licenses:
+  - Apache-2.0
+  - CC-BY-4.0
+  - MIT
+  - Unicode-DFS-2016
+  - W3C-20150513
+  name: typescript
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - 4.9.5
+  mimer:
+    linking: Static
+    product_number: CAX1058451
+    product_version_label: v4.9.5
+    selected_licenses:
+    - Apache-2.0
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'

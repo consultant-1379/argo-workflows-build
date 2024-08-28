@@ -1,0 +1,81 @@
+#
+# COPYRIGHT Ericsson 2023
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+modelVersion: '3.0'
+dependencies:
+- ID: github.com/argoproj/argo-workflows+3.5.2
+  additional_info:
+    fossa-attribution:
+      Description: Workflow engine for Kubernetes
+      Package: github.com/argoproj/argo-workflows
+      Source: git
+      Version: 3.5.2
+      Hash: 5b6ad2be163ecd3f0251a931ab84dba3c6085ad2
+      licenses:
+      - Apache-2.0
+      Title: argo-workflows
+      DownloadURL: https://github.com/argoproj/argo-workflows/archive/v3.5.2.tar.gz 
+  bazaar:
+    register: 'no'
+    prim: 22/CTX1031249
+    community_link: https://github.com/argoproj/argo-workflows
+    community_name: argoproj
+    community_url: https://github.com/argoproj/argo-workflows
+    component_comment: ''
+    component_highlevel_description: Workflow engine for Kubernetes
+    component_name: argo-workflows
+    component_platform: linux
+    component_programing_language: Go
+    component_version: V3.5.2
+    licenses:
+    - FAL1159004/20 (Apache License 2.0 (Apache-2.0))
+    src_download_link: https://github.com/argoproj/argo-workflows/archive/v3.5.2.tar.gz
+    stako_decision_reason: automatic
+    stako: ESW2
+    stako_comment: ''
+    bazaarurl: https://scas.internal.ericsson.com/search3pp?id=1072104&id-filter=equals&rowDisplay=Card-Simple
+    recode: ''
+    retext: ''
+    country: United States
+    crypto: No Encryption
+  encryptions:
+    used:
+    - ''
+  evms:
+    register: 'yes'
+    product_name: github.com/argoproj/argo-workflows
+    target_sw: linux
+    vendor: git
+    version: v3.5.2
+    web_url: https://github.com/argoproj/argo-workflows
+  licenses:
+  - Apache-2.0
+  name: argo-workflows
+  primary:
+  - this
+  subcomponent: false
+  type: FOSS
+  versions:
+  - v3.5.2
+  - b76329f3a2dedf4c76a9cac5ed9603ada289c8d0
+  mimer:
+    linking: Static
+    product_number: CTX1031249
+    product_version_label: v3.5.2
+    obligation: Including the full license text in a prominent place with the software
+      when the FOSS is distributed
+    usage: Use as is
+    primary: 'True'

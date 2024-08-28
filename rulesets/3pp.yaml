@@ -1,0 +1,249 @@
+#
+# COPYRIGHT Ericsson 2022
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+modelVersion: 2.0
+
+description: "AI/ML Model Lifecycle Manager argowf Foss Tasks"
+
+# See image catalog: https://confluence.lmera.ericsson.se/display/ACD/ADP+CICD+Docker+Image+Catalog
+docker-images:
+    - adp-release-auto: armdocker.rnd.ericsson.se/proj-adp-cicd-drop/bob-adp-release-auto:${env.RELEASE_AUTO_TAG}
+    - adp-maven-builder: armdocker.rnd.ericsson.se/proj-adp-cicd-drop/bob-java11mvnbuilder:${env.MVN_BUILDER_TAG}
+    - adp-go-builder: armdocker.rnd.ericsson.se/proj-adp-cicd-drop/bob-gobuilder.adp-base-os:latest
+
+import:
+    common: common-properties.yaml
+
+properties:
+    # FOSSA
+    - fossa-server-endpoint: https://scasfossa.internal.ericsson.com/
+    - fossa-project-name: eric-aiml-pipeline
+    
+    - fossa-argowf-project-name: ${fossa-project-name}-argo-workflows
+    - fossa-argowf-report-name: fossa-argowf-report.json
+
+    - fossa-argoui-project-name: ${fossa-project-name}-argo-workflows-ui
+    - fossa-argoui-report-name: fossa-argoui-report.json
+
+    
+    - fossa-team-name: aiml-mlops-mxe
+    - docker-params: "--workdir ${env.PWD}"
+
+    - scas-product-id: "7753"
+    - scas-product-version-id: "9951"
+
+    - scas-name-scan-threshold: 90
+    - scas-version-scan-threshold: 90
+
+env:
+    - DOCKER_NETWORK (default=--network host)
+    - HOME
+    - PWD
+    - MAVEN_OPTS (default=-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn)
+
+    # Default docker image tags
+    - MVN_BUILDER_TAG (default=latest)
+    - RELEASE_AUTO_TAG (default=latest)
+
+    # FOSSA
+    - FOSSA_ARTIFACT_HASH
+    - FOSSA_API_KEY
+
+    # SCAS
+    - SCAS_REFRESH_TOKEN
+
+var:
+    - version
+    - fossa-available
+
+rules:
+    clean:
+        - task: rm
+          cmd:
+              - rm -rf *${fossa-argowf-report-name}
+
+    fossa-server-check:
+        - task: check-status
+          docker-image: adp-release-auto
+          cmd:
+            - sh -c 'if curl ${fossa-server-endpoint}; then
+                echo "FOSSA server available.";
+                echo true > .bob/var.fossa-available;
+                else
+                echo "Unable to connect to FOSSA server. Skipping FOSSA Analysis.";
+                echo false > .bob/var.fossa-available;
+                fi'
+    
+    fossa-argowf-analyze:
+        - task: analyze
+          docker-image: adp-go-builder
+          docker-flags:
+              - ${docker-params}
+              - "--env FOSSA_API_KEY=${env.FOSSA_API_KEY}"
+              - "--env GOPATH=$PWD/build/go"
+              - "--env HOME=${env.HOME}"
+              - "--volume ${env.HOME}:${env.HOME}"
+          cmd: sh -c 'cd ${common.argowf-path};fossa analyze --revision ${var.version} --team ${fossa-team-name} --endpoint ${fossa-server-endpoint} --project ${fossa-argowf-project-name} --exclude-path ./sdks/ --exclude-path ./ui/ --exclude-path ./dev/nix/' || true
+
+    fossa-argowf-scan-status-check:
+        - task: fossa-scan-status-check
+          docker-image: adp-release-auto
+          docker-flags:
+              - "--env FOSSA_API_KEY=${env.FOSSA_API_KEY}"
+          cmd: fossa_scan_status_check -s ${fossa-server-endpoint} -f custom -p ${fossa-argowf-project-name} -r ${var.version} -t ${env.FOSSA_API_KEY} -dl 15
+
+    fetch-argowf-fossa-report-attribution:
+        - task: fetch-fossa-report-attribution
+          docker-image: adp-maven-builder
+          docker-flags:
+              - "--env FOSSA_API_KEY=${env.FOSSA_API_KEY}"
+          cmd: fossa report attribution
+              --endpoint ${fossa-server-endpoint}
+              --project ${fossa-argowf-project-name}
+              --revision ${var.version} --json --timeout 15000 > ${fossa-argowf-report-name}    
+
+    dependency-argowf-update:
+        - task: dependency-update
+          docker-image: adp-release-auto
+          cmd: dependencies update
+              --fossa-report ${fossa-argowf-report-name}
+              --dependencies ${common.argowf-dependency-file-name}
+              --sort
+    
+    scas-argowf-scan:
+        - task: scan-scas
+          docker-image: adp-release-auto
+          cmd: dependencies update
+              --fossa-report ${fossa-argowf-report-name}
+              --dependencies ${common.argowf-dependency-file-name}
+              --scan-scas
+              --scas-refresh-token ${env.SCAS_REFRESH_TOKEN}
+              --link-dependencies
+              --sort
+              --name-scan-threshold ${scas-name-scan-threshold}
+              --version-scan-threshold ${scas-version-scan-threshold}
+
+    dependency-validate-argowf:
+        - task: dependency-validate-argowf
+          docker-image: adp-release-auto
+          cmd: dependencies validate
+              --dependencies ${common.argowf-dependency-file-name}
+              --allow-esw4
+
+    fossa-argoui-analyze:
+        - task: analyze
+          docker-image: adp-go-builder
+          docker-flags:
+              - ${docker-params}
+              - "--env FOSSA_API_KEY=${env.FOSSA_API_KEY}"
+              - "--env GOPATH=$PWD/build/go"
+              - "--env HOME=${env.HOME}"
+              - "--volume ${env.HOME}:${env.HOME}"
+          cmd: sh -c 'cd ${common.argowf-path}/ui;fossa analyze --revision ${var.version} --team ${fossa-team-name} --endpoint ${fossa-server-endpoint} --project ${fossa-argoui-project-name}' | true
+
+    fossa-argoui-scan-status-check:
+        - task: fossa-scan-status-check
+          docker-image: adp-release-auto
+          docker-flags:
+              - "--env FOSSA_API_KEY=${env.FOSSA_API_KEY}"
+          cmd: fossa_scan_status_check -s ${fossa-server-endpoint} -f custom -p  ${fossa-argoui-project-name} -r ${var.version} -t ${env.FOSSA_API_KEY} -dl 15
+
+    fetch-argoui-fossa-report-attribution:
+        - task: fetch-fossa-report-attribution
+          docker-image: adp-maven-builder
+          docker-flags:
+              - "--env FOSSA_API_KEY=${env.FOSSA_API_KEY}"
+          cmd: fossa report attribution
+              --endpoint ${fossa-server-endpoint}
+              --project ${fossa-argoui-project-name}
+              --revision ${var.version} --json --timeout 15000 > ${fossa-argoui-report-name}
+
+    dependency-argoui-update:
+        - task: dependency-update
+          docker-image: adp-release-auto
+          cmd: dependencies update
+              --fossa-report ${fossa-argoui-report-name}
+              --dependencies ${common.argoui-dependency-file-name}
+              --sort
+    
+    scas-argoui-scan:
+        - task: scan-scas
+          docker-image: adp-release-auto
+          cmd: dependencies update
+              --fossa-report ${fossa-argoui-report-name}
+              --dependencies ${common.argoui-dependency-file-name}
+              --scan-scas
+              --scas-refresh-token ${env.SCAS_REFRESH_TOKEN}
+              --link-dependencies
+              --sort
+              --name-scan-threshold ${scas-name-scan-threshold} 
+              --version-scan-threshold ${scas-version-scan-threshold}
+
+    dependency-validate-argoui:
+        - task: dependency-validate-argoui
+          docker-image: adp-release-auto
+          cmd: dependencies validate
+              --dependencies ${common.argoui-dependency-file-name}
+              --allow-esw4
+
+    dependency-validate-2pps: 
+        - task: dependency-validate-2pps
+          docker-image: adp-release-auto
+          cmd: dependencies validate
+              --dependencies ${common.argowf-2pps-dependency-file-name}
+              --allow-esw4
+    
+    dependency-validate-3pps: 
+        - task: dependency-validate-3pps
+          docker-image: adp-release-auto
+          cmd: dependencies validate
+              --dependencies ${common.argowf-3pps-dependency-file-name}
+              --allow-esw4
+    
+    license-agreement-generate:
+        - task: license-agreement-generate-argowf
+          docker-image: adp-release-auto
+          cmd: license-agreement generate
+              --dependencies ${common.argowf-dependency-file-name}
+              --fossa-report ${fossa-argowf-report-name}
+              --output ${common.license-agreement-argowf-source-file-path}
+        - task: license-agreement-generate-argowf-ui
+          docker-image: adp-release-auto
+          cmd: license-agreement generate
+                --dependencies ${common.argoui-dependency-file-name}
+                --fossa-report ${fossa-argoui-report-name}
+                --output ${common.license-agreement-argowf-ui-source-file-path}
+
+        # Generate license file for dependecy 3pps file manually
+        - task: merge
+          docker-image: adp-release-auto
+          cmd:
+           - mkdir -p $(dirname ${common.license-agreement-source-file-path}) 
+           - license-agreement merge
+              --license-agreement ${common.license-agreement-argowf-source-file-path}
+              --license-agreement ${common.license-agreement-argowf-ui-source-file-path}
+              --license-agreement ${common.license-agreement-3pps-source-file-path}
+              --output ${common.license-agreement-source-file-path}
+
+    # WARNING: RUN ONLY MANUALLY THIS RULE
+    # Registration requests for ArgoUI are done manually
+    scas-register:
+        - task: scas-register-for-argowf
+          docker-image: adp-release-auto
+          cmd: dependencies register 
+                --dependencies  ${common.argowf-dependency-file-name} 
+                --scas --scas-refresh-token ${env.SCAS_REFRESH_TOKEN} 
+                --productid ${scas-product-id} --versionid ${scas-product-version-id}

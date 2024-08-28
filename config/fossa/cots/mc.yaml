@@ -1,0 +1,31 @@
+#
+# COPYRIGHT Ericsson 2023
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+cots:
+  - prim: 5/CTX1010356
+    rstate: R1A
+    swName: MC
+    swVersion: 2023-10-24T21-42-22Z
+    vendor: MinIO
+    swCompilationCountry: US
+    cotsUsage:
+      cotsLicenses:
+        - 1/FAL1153331
+        - 3/FAL1153331
+        - 5/FAL1153331
+        - 7/FAL1153331
+      agreementNumber: "MA-2022-001036, EAB-MIN-202204"
+

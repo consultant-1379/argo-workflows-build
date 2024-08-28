@@ -1,0 +1,212 @@
+
+#
+# COPYRIGHT Ericsson 2022
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+modelVersion: 2.0
+fosses:
+  - product_number: CAX1056741
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "YAML 1.2 parser and serializer"
+  - product_number: CAX1057105
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A lightweight javascript date library for parsing, validating, manipulating, and formatting dates."
+  - product_number: CAX1058117
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Simple HTML5 Charts using the canvas element chartjs.org."
+  - product_number: CAX1058396
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "The iconic SVG, font, and CSS toolkit"
+  - product_number: CAX1058451
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types, classes, and modules to JavaScript."
+  - product_number: CAX1058485
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API."
+  - product_number: CAX1058943
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+  - product_number: CAX1059331
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "history is a JavaScript library that lets you easily manage session history anywhere JavaScript runs. history abstracts away the differences in various environments and provides a minimal API that lets you manage the history stack, navigate, confirm navigation, and persist state between sessions."
+  - product_number: CAX1059374
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Declarative routing for React"
+  - product_number: CTX1020178
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A simple JavaScript utility for conditionally joining classNames together."
+  - product_number: CTX1020568
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Dagre is a JavaScript library that makes it easy to lay out directed graphs on the client-side."
+  - product_number: CTX1020692
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Runtime type checking for React props and similar objects."
+  - product_number: CTX1022020
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A simple and reusable datepicker component for React"
+  - product_number: CTX1022784
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Node.js library for parsing crontab instructions"
+  - product_number: CTX1024960
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "JavaScript library that translates Cron expressions into human readable descriptions"
+  - product_number: CTX1025558
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Ajax for Node.js and browsers (JS HTTP client). Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs."
+  - product_number: CTX1026242
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "The repository for high quality TypeScript type definitions."
+  - product_number: CTX1029306
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Annotation plugin for Chart.js"
+  - product_number: CTX1030821
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "React components for Chart.js, the most popular charting library"
+  - product_number: CTX1032272
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A browser based code editor"
+  - product_number: CTX1032347
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Monaco Editor for React."
+  - product_number: CTX1038377
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Simple/dumb promise wrapper for superagent"
+  - product_number: CTX1038378
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Argoproj shared React components"

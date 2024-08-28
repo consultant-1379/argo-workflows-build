@@ -1,0 +1,697 @@
+
+#
+# COPYRIGHT Ericsson 2022
+#
+#
+#
+# The copyright to the computer program(s) herein is the property of
+#
+# Ericsson Inc. The programs may be used and/or copied only with written
+#
+# permission from Ericsson Inc. or in accordance with the terms and
+#
+# conditions stipulated in the agreement/contract under which the
+#
+# program(s) have been supplied.
+#
+
+modelVersion: 2.0
+fosses:
+  - product_number: CAX1057062
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "Go OAuth2"
+  - product_number: CAX1058617
+    license: MPL-2.0
+    obligation: |
+      "You are entitled with the ability to use the software for commercial purposes.
+      You are entitled with the ability to modify the software and create derivatives.
+      You are entitled with the ability to distribute original or modified (derivative) works.
+      You are entitled with the ability to add onto the existing terms (i.e. license parent projects under a different license).
+      You are not entitled to hold liable if the software/license owner can be charged for damages.
+      The original copyright must be retained.
+      You may not use the marks of any Contributor except to pass on copyright, patent and license notices.
+      You may not remove or alter license notices in the software except to correct known factual errors.
+      You may not charge for source code form more than it costs to distribute."
+    usage: |
+      "Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package"
+  - product_number: CAX1058623
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A sacred extension to the standard go testing package. Go code (golang) set of packages that provide many tools for testifying that your code will behave as you intend."
+  - product_number: CAX1058636
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "[mirror] Go supplementary cryptography libraries"
+  - product_number: CAX1059580
+    license: BSD-2-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "Package errors provides simple error handling primitives."
+  - product_number: CAX1059731
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Logrus is a structured logger for Go (golang), completely API compatible with
+      the standard library logger."
+  - product_number: CAX1059823
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "Go support for Google's protocol buffers"
+  - product_number: CAX1059833
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go."
+  - product_number: CAX1059885
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Viper is a complete configuration solution for go applications including 12 factor apps. It is designed to work within an application, and can handle all types of configuration needs and formats."
+  - product_number: CAX1059886
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "pflag is a drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags."
+  - product_number: CTX1020382
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "These are auto-generated Go libraries from the Google Discovery Service's JSON description files of the available "new style" Google APIs. Due to the auto-generated nature of this collection of libraries, complete APIs or specific versions can appear or go away without notice. As a result, you should always locally vendor any API(s) that your code relies upon."
+  - product_number: CTX1020424
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "The Go language implementation of gRPC. HTTP-2 based RPC."
+  - product_number: CTX1020444
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Package cloud is the root of the packages used to access Google Cloud Services."
+  - product_number: CTX1021410
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "An implementation of JSON Schema, based on IETF's draft v4 - Go language"
+  - product_number: CTX1021414
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "An implementation of JSON Reference - Go language."
+  - product_number: CTX1021842
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Data access layer for PostgreSQL, CockroachDB, MySQL, SQLite and MongoDB with ORM-like features."
+  - product_number: CTX1021930
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Go clients for talking to a kubernetes cluster."
+  - product_number: CTX1021931
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Scheme, typing, encoding, decoding, and conversion packages for Kubernetes and Kubernetes-like API objects."
+  - product_number: CTX1021932
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Scheme, typing, encoding, decoding, and conversion packages for Kubernetes and Kubernetes-like API objects."
+  - product_number: CTX1022004
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "A Go OpenID Connect client."
+  - product_number: CTX1022061
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "A Go library to apply RFC6902 patches and create and apply RFC7386 patches."
+  - product_number: CTX1022337
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Go libraries shared across Prometheus components and libraries."
+  - product_number: CTX1022386
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "This is the Go client library for Prometheus. It has two separate parts, one for instrumenting application code, and one for creating clients that talk to the Prometheus HTTP API."
+  - product_number: CTX1022624
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Data model artifacts for Prometheus."
+  - product_number: CTX1023050
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "A Commander for modern Go CLI interactions"
+  - product_number: CTX1023574
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "PTY interface for Go"
+  - product_number: CTX1023578
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "cmux is a generic Go library to multiplex connections based on their payload."
+  - product_number: CTX1023597
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "grpc-gateway is a plugin of protoc. It reads gRPC service definition, and generates a reverse-proxy server which translates a RESTful JSON API into gRPC."
+  - product_number: CTX1023603
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Prometheus monitoring for your gRPC Go servers and clients."
+  - product_number: CTX1023612
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "This repository is for active development of the Azure SDK for Go. For consumers of the SDK we recommend visiting our public developer docs at:"
+  - product_number: CTX1023675
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Contains the generated Go packages for common protocol buffer types, and the generated [gRPC][1] code necessary for interacting with Google's gRPC APIs."
+  - product_number: CTX1023683
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "This repository provides supplementary Go time packages."
+  - product_number: CTX1023687
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "This repository provides Go concurrency primitives in addition to the ones provided by the language and "sync" and "sync/atomic" packages."
+  - product_number: CTX1025271
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Kubernetes OpenAPI spec generation & serving."
+  - product_number: CTX1025537
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A better way to marshal and unmarshal YAML in Golang"
+  - product_number: CTX1025555
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Non-Kubernetes-specific utility libraries which are consumed by multiple projects."
+  - product_number: CTX1025783
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Set of helpers for creating kubectl commands and plugins."
+  - product_number: CTX1025787
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "The Go language comes with a built-in template language, but not very many template functions. Sprig is a library that provides more than 100 commonly used template functions."
+  - product_number: CTX1025798
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Golang gRPC Middlewares: interceptor chaining, auth, logging, retries and more."
+  - product_number: CTX1025830
+    license: BSD-2-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "A collection of useful middleware for Go HTTP services & web applications ????"
+  - product_number: CTX1025843
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "Protocol Buffers for Go with Gadgets"
+  - product_number: CTX1025858
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "This Go SDK is based on the official APIs of Alibaba Cloud OSS."
+  - product_number: CTX1026125
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "MinIO Go client SDK for S3 compatible object storage"
+  - product_number: CTX1026285
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Leveled execution logs for Go (fork of https://github.com/golang/glog)"
+  - product_number: CTX1026637
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Go parallel gzip (de)compression"
+  - product_number: CTX1026649
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Get JSON values quickly - JSON parser for Go"
+  - product_number: CTX1026688
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Pure Go Kerberos library for clients and services."
+  - product_number: CTX1026973
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Simple and fast template engine for Go."
+  - product_number: CTX1027394
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "A package for generating things based on go files. This mechanism was first used in Kubernetes and is split out here for ease of reuse and maintainability."
+  - product_number: CTX1027502
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "Experimental and deprecated packages."
+  - product_number: CTX1027695
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Issue tracker and mirror of kubectl code"
+  - product_number: CTX1030208
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "A supersonic rate limiting package for Go with HTTP middleware."
+  - product_number: CTX1030555
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "a cron library for go"
+  - product_number: CTX1030573
+    license: BSD-3-Clause
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed. 
+      This fulfills the following: Redistributions of source code must retain the above copyright notice, this list of conditions and the license disclaimer.
+      Redistributions in binary form must reproduce the copyright notice, this list of conditions and the disclaimer in the documentation and/or
+      other materials provided with the distribution"
+    usage: |
+      "This repository provides Go terminal and console support packages."
+  - product_number: CTX1030909
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Argo shared libraries between argo projects"
+  - product_number: CTX1030916
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A native go client for HDFS"
+  - product_number: CTX1032877
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Arbitrary expression evaluation for golang"
+  - product_number: CTX1032917
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "This is a golang library for working with container registries. It's largely based on the Python library of the same name."
+  - product_number: CTX1034537
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Pure Go implementation of jq"
+  - product_number: CTX1036384
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Event-driven automation framework"
+  - product_number: CTX1037366
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Expression language and expression evaluation for Go"
+  - product_number: CTX1037554
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "An implementation of JOSE standards (JWE, JWS, JWT) in Go"
+  - product_number: CTX1038371
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Open a file, directory, or URI using the OS's default application for that object type. Optionally, you can specify an application to use."
+  - product_number: CTX1038372
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Webhook receiver for GitHub, Bitbucket, GitLab, Gogs"
+  - product_number: CTX1038374
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Flatten and expand golang maps and structs."
+  - product_number: CTX1038376
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "Fast and easy application diagrams"
+  - product_number: CTX1038379
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "A highly extensible Git implementation in pure Go."
+  - product_number: CTX1038380
+    license: MIT
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills, The MIT copyright notice and the MIT permission notices shall be included in all copies or
+      substantial portions of the software (in whatever format, either in binary or in source)"
+    usage: |
+      "A lightweight, simple and cross-platform package to colorize text in terminals"
+  - product_number: CTX1038863
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "This project is used for support Darabonba OpenAPI DSL. It's a low-level library for http request."
+  - product_number: CTX1038872
+    license: Apache-2.0
+    obligation: |
+      "Including the full license text in a prominent place with the software when the FOSS is distributed.
+      This fulfills the following: Ericsson must give any recipients of the software a copy of the Apache License.
+      Ericsson must cause any modified files to carry prominent notices stating that Ericsson changed the files.
+      In any source form Ericsson distributes, all copyright, patent, trademark and attribution notices must be retained.
+      If the software includes a NOTICE text file as part of its distribution,
+      then any derivative work Ericsson distributes must include a readable copy of the attribution notices contained within such NOTICE file."
+    usage: |
+      "Alibaba Cloud Credentials for Go"
